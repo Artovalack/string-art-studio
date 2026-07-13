@@ -170,7 +170,7 @@ const toolButtons: { tool: Tool; label: string; hotkey: string; icon: ReactNode 
   { tool: "nail", label: "Nail", hotkey: "N", icon: <Circle size={16} /> },
   { tool: "thread", label: "Thread", hotkey: "T", icon: <Spline size={16} /> },
   { tool: "image", label: "Image", hotkey: "I", icon: <ImageIcon size={16} /> },
-  { tool: "pan", label: "Pan", hotkey: "P", icon: <Plus size={16} className="rotate-45" /> },
+  { tool: "pan", label: "Pan", hotkey: "F", icon: <Plus size={16} className="rotate-45" /> },
 ];
 
 export default function ControlPanel(props: Props) {
